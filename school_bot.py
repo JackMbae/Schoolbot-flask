@@ -31,7 +31,7 @@ def ask_gpt(prompt):
             "Content-Type": "application/json"
         }
         data = {
-            "model": "meta-llama/llama-3.3-8b-instruct:free",  # or another free model
+            "model": "deepseek/deepseek-chat-v3-0324:free",  # or another free model
             "messages": [
                 {"role": "system", "content": "You are a helpful school assistant who answers student questions."},
                 {"role": "user", "content": prompt}
